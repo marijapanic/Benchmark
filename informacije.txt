@@ -1,0 +1,32 @@
+Objašnjenje:
+Ova aplikacija služi za upravljanje vestima iz oblasti tehnologije kako bi korisnici bili informisani o svim događajima.
+	
+controller.php - Cilj ovog fajla jeste proveravanje dobijene informacije, putem "GET",
+o akciji i da li je u pitanju akcija: obrisiVest ili pretraga kao i ispisavanju poruke o uspešnosti ili pak ispisivanje rezultata pretrage.Koristio se trim.
+
+delete.php - Cilj ovog fajla jeste brisanje vesti, odnosno funkcionisanje opcije DELETE u phpmyadmin-u.Funkcija obriši je urađena pomoću jQuery.get (Ajax).
+
+index.php - CIlj ovog fajla jeste prikaz vesti iz baze,ali i istovremeno i mogućnost pretrage prema kriterijumima.
+
+insert.php - Cilj ovog fajla jeste kreiranje novih vesti. Koristi se "POST".
+
+konekcija.php - Cilj ovog fajla jeste povezivanje sa bazom podataka.
+
+update.php - Cilj ovog fajla jeste prebacivanje određene vesti u drugu kategoriju.
+
+style.css - Cilj je smanjiti veličinu koda i zato kreiranje posebnog fajla u kome će se nalaziti dizajn.
+
+footer.php - Cilj je smanjiti veličinu koda i zato kreiranje posebnog fajla u kome će se nalaziti footer i njegov sadržaj.
+
+jumbotron.php - Cilj je smanjiti veličinu koda i zato kreiranje posebnog fajla u kome će se nalaziti jumbotron i njegov sadržaj.
+
+navbar.php - Cilj je smanjiti veličinu koda i zato kreiranje posebnog fajla u kome će se nalaziti linkovi ka drugim stranicama ove aplikacije.
+
+Kategorija.class.php - Cilj ovog fajla jeste povratna vrednost funkcije vratiKategorije(). Ova funkcija vraća sve kategorije iz baze podataka po id.
+
+Vest.class.php - Cilj ovog fajla jeste implementacija funkcija kao što su: dodajVest,
+izmeniVest,obrisiVest,vratiVest,pretraga i konstruktor.Upotreba (INSERT, UPDATE, DELETE, SELECT),pretraga,upravljanje greškama, objektni PHP.
+
+U index.php,insert.php,update.php,delete.php se koristio bootstrap, u skoro svim fajlovima se include određen .php fajl. Postoji upotreba "GET","POST". Korišćenje jQuery
+
+
